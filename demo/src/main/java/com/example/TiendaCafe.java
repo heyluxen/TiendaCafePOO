@@ -32,9 +32,10 @@ public class TiendaCafe {
         System.out.println("\n4. MOSTRAR INFORMACIÓN ACTUALIZADA:");
         System.out.println("-----------------------------------");
         cafe1.mostrarInformacion();
-        
-        System.out.println("\n===========================================");
-        System.out.println("PARTE 1 COMPLETADA - PROGRAMACIÓN POO EN JAVA");
-        System.out.println("===========================================");
+    
+        System.out.println("\n5. DESCUENTO");
+        System.out.println("-------------------------------------------");
+        cafe2.aplicarDescuento(10); // Aplicar 10% de descuento
+        cafe2.mostrarInformacion();
     }
 }
